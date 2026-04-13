@@ -1,0 +1,114 @@
+---
+title: 将PYTHON项目转成UV 项目
+type: source
+category: article
+created: 2026-02-26
+updated: 2026-04-12
+source_url: http://www.blogjava.net/paulwong/archive/2026/02/26/451749.html
+author: paulwong
+tags: ['blogjava']
+---
+
+# 将PYTHON项目转成UV 项目
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2026/02/26/451749.html  
+**发布时间**: 2026-02-26
+
+## 摘要
+
+# 将PYTHON项目转成UV 项目
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2026/02/26/451749.html
+**发布时间**: 2026-02-26
+
+将PYTHON项目转成UV 项目
+要把一个已有的 Python 项目（带有 ）转成 uv project（即使用 uv 作为包管理器和项目配置），可以按以下步骤操作：
+步骤一：初始化 UV 项目
+在项目根目录运行：
+
+uv init
+#建立项目级的虚拟环境
+uv venv
+这会生成一个 pyproject.toml，作为 uv 的配置入口。
+
+
+步骤二：导入 REQUIREMENTS.TXT
+uv 提供了直接从  安装依赖的方式：
+
+uv add -r requirements.txt
+
+这个命令会解析 requirements.txt 中的每一行（支持带版本的规范如 requests==2.31.0），并将其添加到 pyproject.toml 的 [project.dependencies] 中，同时生成/更新 uv.lock 锁文件。
+
+
+
+步骤三：检...
+
+## 原文内容
+
+# 将PYTHON项目转成UV 项目
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2026/02/26/451749.html
+**发布时间**: 2026-02-26
+
+将PYTHON项目转成UV 项目
+要把一个已有的 Python 项目（带有 ）转成 uv project（即使用 uv 作为包管理器和项目配置），可以按以下步骤操作：
+步骤一：初始化 UV 项目
+在项目根目录运行：
+
+uv init
+#建立项目级的虚拟环境
+uv venv
+这会生成一个 pyproject.toml，作为 uv 的配置入口。
+
+
+步骤二：导入 REQUIREMENTS.TXT
+uv 提供了直接从  安装依赖的方式：
+
+uv add -r requirements.txt
+
+这个命令会解析 requirements.txt 中的每一行（支持带版本的规范如 requests==2.31.0），并将其添加到 pyproject.toml 的 [project.dependencies] 中，同时生成/更新 uv.lock 锁文件。
+
+
+
+步骤三：检查并整理依赖
+• \t打开 pyproject.toml，确认依赖是否正确写入 [tool.uv.dependencies]。
+• \t如果有开发依赖（如测试框架），可以用：
+uv add --dev pytest
+• \t删除旧的 requirements.txt，以后只需要维护 pyproject.toml 和 uv.lock。
+
+
+步骤四：处理开发依赖（可选）
+如果 requirements.txt 中包含仅用于开发的依赖（如 pytest），可以将它们移到 [dependency-groups] 中（uv 支持类似 PEP 735 的开发依赖分组）：
+
+uv add --dev pytest
+
+
+步骤五：同步环境
+运行以下命令根据 pyproject.toml 和 uv.lock 创建虚拟环境并安装所有依赖：
+
+uv sync
+这会创建一个 .venv 文件夹（如果不存在），并安装精确版本的依赖。
+
+
+步骤六：后续使用
+激活虚拟环境：source .venv/bin/activate（Windows 使用 .venv\\Scripts\\activate）
+运行脚本：uv run python script.py
+添加新依赖：uv add requests
+更新依赖：uv sync --upgrade
+✅ 总结：
+
+uv 会生成一个 uv.lock 文件，用于锁定所有传递依赖的精确版本，确保环境可重现。建议将其提交到版本控制。
+
+如果项目原本有其他构建工具配置（如 setup.py、setup.cfg），uv init 会尝试合并，但建议手动检查 pyproject.toml 的内容。
+
+转换后，原有的 requirements.txt 可以保留作为参考，但后续应使用 pyproject.toml 和 uv.lock 管理依赖。
+
+
+
+
+posted on 2026-02-26 10:59 paulwong 阅读(58) 评论(0)  编辑  收藏 所属分类: AI-PYTHON
+
+## 摄入记录
+
+- **摄入时间**: 2026-04-12
+- **来源**: blogjava.net/paulwong

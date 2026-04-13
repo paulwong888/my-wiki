@@ -1,0 +1,38 @@
+---
+title: 语义缓存 - 使用Higress
+type: source
+category: article
+created: 2026-03-11
+updated: 2026-04-12
+source_url: http://www.blogjava.net/paulwong/archive/2026/03/11/451755.html
+author: paulwong
+tags: ['blogjava']
+---
+
+# 语义缓存 - 使用Higress
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2026/03/11/451755.html  
+**发布时间**: 2026-03-11
+
+## 摘要
+
+# 语义缓存 - 使用Higress
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2026/03/11/451755.html
+**发布时间**: 2026-03-11
+
+与大模型的对话，如果之后其他人非当前用户的问题如果与之前的用户问的问题类似，可迅速从缓存中取出，无需再走LLM。使用ai网关Higress，此动作在服务端Higress中完成，客户端无需任何代码。在milvus的vector db中新加collection，名称：ai_higress_cache，和以下字段：Code highlighting produced by Actipro CodeHighlighter (freeware)http://www.CodeHighlighter.com/-->Field, Type, Index Name, Index Type, Index Parametersid,auto id, Int64vector, FloatVector(4096), vector, metric_type:COSINEquestion...
+
+## 原文内容
+
+# 语义缓存 - 使用Higress
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2026/03/11/451755.html
+**发布时间**: 2026-03-11
+
+与大模型的对话，如果之后其他人非当前用户的问题如果与之前的用户问的问题类似，可迅速从缓存中取出，无需再走LLM。使用ai网关Higress，此动作在服务端Higress中完成，客户端无需任何代码。在milvus的vector db中新加collection，名称：ai_higress_cache，和以下字段：Code highlighting produced by Actipro CodeHighlighter (freeware)http://www.CodeHighlighter.com/-->Field, Type, Index Name, Index Type, Index Parametersid,auto id, Int64vector, FloatVector(4096), vector, metric_type:COSINEquestion, VarChar(5000)answer, VarChar(5000)#这三个字段vector, question, answer是必需的，且名字不能改前期需要配置做embedding的服务，VECTOR DB的服务，均可在服务来源中完成。在“ai路由管理”中，点击某个路由的策略，点击配置，输入以下yaml配置embedding:  apiKey: "sk-xxxxxxx"  model: "nvidia/llama-embed-nemotron-8b"  path: "/v1/embeddings"  serviceName: "llm-vllm-nvidia--llama-embed-nemotron-8b.internal.static"  servicePort: 80  type: "openai"vector:  apiKey: "empty-key"  collectionID: "ai_higress_cache"  serviceName: "my-milvus.static"  servicePort: 80  type: "milvus"cacheKeyFrom: "messages.@reverse.0.content"cacheKeyPrefix: "openai_gpt_oss_20b_"cacheStreamValueFrom: "choices.0.delta.content"cacheValueFrom: "choices.0.message.content"returnResponseTemplate: |  {"id":"from-cache","choices":[{"index":0,"message":{"role":"assistant","content":"%s"},"finish_reason":"stop"}],"model":"gpt-4o","object":"chat.completion","usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0}}returnStreamResponseTemplate: |-  data:{"id":"from-cache","choices":[{"index":0,"delta":{"role":"assistant","content":"%s"},"finish_reason":"stop"}],"model":"gpt-4o","object":"chat.completion","usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0}}  data:[DONE]参照：https://higress.ai/docs/latest/user/plugins/ai/api-provider/ai-cache/paulwong 2026-03-11 18:07 发表评论
+
+## 摄入记录
+
+- **摄入时间**: 2026-04-12
+- **来源**: blogjava.net/paulwong

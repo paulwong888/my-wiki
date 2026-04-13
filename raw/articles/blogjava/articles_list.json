@@ -1,0 +1,462 @@
+[
+  {
+    "title": "Karpathy's LLM-Wiki pattern 知识库资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/04/12/451771.html",
+    "date": "2026-04-12"
+  },
+  {
+    "title": "CLI anything",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/04/12/451770.html",
+    "date": "2026-04-12"
+  },
+  {
+    "title": "playwright-cli 案例",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/04/12/451769.html",
+    "date": "2026-04-12"
+  },
+  {
+    "title": "阿迈奇3080显卡驱动",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/04/06/451766.html",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "Linux 查看本机软件硬件信息的命令",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/03/23/451765.html",
+    "date": "2026-03-23"
+  },
+  {
+    "title": "OPEN CLAW资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/03/21/451763.html",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "语义缓存 - 使用Higress",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/03/11/451755.html",
+    "date": "2026-03-11"
+  },
+  {
+    "title": "安装uv",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/03/08/451753.html",
+    "date": "2026-03-08"
+  },
+  {
+    "title": "大模型api key中转资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/27/451750.html",
+    "date": "2026-02-27"
+  },
+  {
+    "title": "将python项目转成uv 项目",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/26/451749.html",
+    "date": "2026-02-26"
+  },
+  {
+    "title": "AI炒股资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/26/451748.html",
+    "date": "2026-02-26"
+  },
+  {
+    "title": "Claude Code Skill - 50个常用skill",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/20/451745.html",
+    "date": "2026-02-20"
+  },
+  {
+    "title": "Claude Code Skill - planning-with-files",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/18/451744.html",
+    "date": "2026-02-18"
+  },
+  {
+    "title": "Agent案例 - 规格驱动开发",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/06/451741.html",
+    "date": "2026-02-06"
+  },
+  {
+    "title": "WIBE DESIGN资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/06/451739.html",
+    "date": "2026-02-06"
+  },
+  {
+    "title": "Agent案例 - 开发流程",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/06/451738.html",
+    "date": "2026-02-06"
+  },
+  {
+    "title": "Open Claw资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/04/451737.html",
+    "date": "2026-02-04"
+  },
+  {
+    "title": "Claude Code Skill资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/04/451736.html",
+    "date": "2026-02-04"
+  },
+  {
+    "title": "vllm部署最新的glm-4.7-flash",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/02/02/451735.html",
+    "date": "2026-02-02"
+  },
+  {
+    "title": "使用uv安装python环境",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/28/451733.html",
+    "date": "2026-01-28"
+  },
+  {
+    "title": "AGENT SKILL",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/27/451732.html",
+    "date": "2026-01-27"
+  },
+  {
+    "title": "Agent案例 - 研发团队",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/26/451731.html",
+    "date": "2026-01-26"
+  },
+  {
+    "title": "智谱文字变图像模型zai-org/GLM-Image",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/25/451730.html",
+    "date": "2026-01-25"
+  },
+  {
+    "title": "Agent案例 - 制作ppt",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/25/451729.html",
+    "date": "2026-01-25"
+  },
+  {
+    "title": "通过api调用vl模型",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/25/451728.html",
+    "date": "2026-01-25"
+  },
+  {
+    "title": "Claude skill 资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/24/451727.html",
+    "date": "2026-01-24"
+  },
+  {
+    "title": "国内安装Claude code",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/24/451726.html",
+    "date": "2026-01-24"
+  },
+  {
+    "title": "生成城市图片的提示词",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/06/451718.html",
+    "date": "2026-01-06"
+  },
+  {
+    "title": "AI应用资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2026/01/03/451717.html",
+    "date": "2026-01-03"
+  },
+  {
+    "title": "N8N资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/12/30/451716.html",
+    "date": "2025-12-30"
+  },
+  {
+    "title": "安装docker mcp",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/12/14/451712.html",
+    "date": "2025-12-14"
+  },
+  {
+    "title": "解读RAG",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/12/13/451711.html",
+    "date": "2025-12-13"
+  },
+  {
+    "title": "添加Milvus MCP",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/12/08/451708.html",
+    "date": "2025-12-08"
+  },
+  {
+    "title": "MCP资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/12/07/451706.html",
+    "date": "2025-12-07"
+  },
+  {
+    "title": "AI 模型广场",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/11/23/451702.html",
+    "date": "2025-11-23"
+  },
+  {
+    "title": "Open WebUI + N8N 流式输出",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/11/08/451694.html",
+    "date": "2025-11-08"
+  },
+  {
+    "title": "微调案例",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/09/10/451675.html",
+    "date": "2025-09-10"
+  },
+  {
+    "title": "RAG提高召回率秘笈",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/09/06/451672.html",
+    "date": "2025-09-06"
+  },
+  {
+    "title": "RAG优化",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/08/26/451666.html",
+    "date": "2025-08-26"
+  },
+  {
+    "title": "docker镜像加速",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/08/26/451665.html",
+    "date": "2025-08-26"
+  },
+  {
+    "title": "支持 A 股、港股！AI 投资炒股「智能体」开源，太绝了。",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/07/11/451646.html",
+    "date": "2025-07-11"
+  },
+  {
+    "title": "保险核保系统设计",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/07/02/451643.html",
+    "date": "2025-07-02"
+  },
+  {
+    "title": "debian安装python+替换为清华源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/06/23/451640.html",
+    "date": "2025-06-23"
+  },
+  {
+    "title": "最全 Docker 神器集结，让你的服务器瞬间起飞！",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/06/21/451639.html",
+    "date": "2025-06-21"
+  },
+  {
+    "title": "百炼大模型支持深度思考",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/06/18/451633.html",
+    "date": "2025-06-18"
+  },
+  {
+    "title": "以非root用户运行docker",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/06/13/451629.html",
+    "date": "2025-06-13"
+  },
+  {
+    "title": "创建数据集的资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/05/18/451621.html",
+    "date": "2025-05-18"
+  },
+  {
+    "title": "强化学习资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/04/30/451616.html",
+    "date": "2025-04-30"
+  },
+  {
+    "title": "足球数据资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/04/24/451613.html",
+    "date": "2025-04-24"
+  },
+  {
+    "title": "ai预测足球资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/04/19/451611.html",
+    "date": "2025-04-19"
+  },
+  {
+    "title": "微调训练的数据集",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/21/451602.html",
+    "date": "2025-03-21"
+  },
+  {
+    "title": "大模型训练的几个阶段",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/18/451600.html",
+    "date": "2025-03-18"
+  },
+  {
+    "title": "python资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/16/451599.html",
+    "date": "2025-03-16"
+  },
+  {
+    "title": "大模型微调后的评估指标",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/12/451596.html",
+    "date": "2025-03-12"
+  },
+  {
+    "title": "LLM全栈框架完整分类清单（预训练+微调+工具链）",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/10/451594.html",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "医疗问诊系统资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/08/451593.html",
+    "date": "2025-03-08"
+  },
+  {
+    "title": "使用nlp提取非结构化数据中的信息",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/03/08/451592.html",
+    "date": "2025-03-08"
+  },
+  {
+    "title": "AI案例资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/02/26/451587.html",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "满血版Deepseek R1全网资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/02/15/451580.html",
+    "date": "2025-02-15"
+  },
+  {
+    "title": "量化资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/02/08/451577.html",
+    "date": "2025-02-08"
+  },
+  {
+    "title": "DeepSeek背后的数学：深入研究群体相对策略优化（GRPO）",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/02/08/451576.html",
+    "date": "2025-02-08"
+  },
+  {
+    "title": "DeepSeek资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/02/02/451569.html",
+    "date": "2025-02-02"
+  },
+  {
+    "title": "不用再找了，这是大模型最全的面试题库",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/22/451567.html",
+    "date": "2025-01-22"
+  },
+  {
+    "title": "数据集资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/17/451561.html",
+    "date": "2025-01-17"
+  },
+  {
+    "title": "vllm资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/17/451560.html",
+    "date": "2025-01-17"
+  },
+  {
+    "title": "AI应用场景",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/17/451559.html",
+    "date": "2025-01-17"
+  },
+  {
+    "title": "搭建llamafactory微调、评估、测试和量化环境",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/16/451558.html",
+    "date": "2025-01-16"
+  },
+  {
+    "title": "量化大模型工具",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/15/451557.html",
+    "date": "2025-01-15"
+  },
+  {
+    "title": "微调资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/15/451556.html",
+    "date": "2025-01-15"
+  },
+  {
+    "title": "安装docker版的Nvidia container toolkit",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/13/451552.html",
+    "date": "2025-01-13"
+  },
+  {
+    "title": "开源镜像库",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/13/451550.html",
+    "date": "2025-01-13"
+  },
+  {
+    "title": "windows中添加端口转发规则",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/13/451549.html",
+    "date": "2025-01-13"
+  },
+  {
+    "title": "AI微调框架axolotl安装",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/12/451548.html",
+    "date": "2025-01-12"
+  },
+  {
+    "title": "内网穿透工具",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/12/451547.html",
+    "date": "2025-01-12"
+  },
+  {
+    "title": "安装cuda版本的pytorch",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/12/451546.html",
+    "date": "2025-01-12"
+  },
+  {
+    "title": "mac使用vscode远程连接win11下的wsl2的方法",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/11/451544.html",
+    "date": "2025-01-11"
+  },
+  {
+    "title": "WSL资源",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/11/451543.html",
+    "date": "2025-01-11"
+  },
+  {
+    "title": "GitHub无法访问的办法",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/05/451538.html",
+    "date": "2025-01-05"
+  },
+  {
+    "title": "linux删除多余的旧内核",
+    "url": "http://www.blogjava.net/paulwong/archive/2025/01/05/451537.html",
+    "date": "2025-01-05"
+  },
+  {
+    "title": "AI入门",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/10/19/451501.html",
+    "date": "2024-10-19"
+  },
+  {
+    "title": "国内网络环境安装docker＋container toolkit",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/08/15/451479.html",
+    "date": "2024-08-15"
+  },
+  {
+    "title": "python界面库",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/08/12/451478.html",
+    "date": "2024-08-12"
+  },
+  {
+    "title": "通过SSH的方式PUSH代码到GIT",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/07/24/451470.html",
+    "date": "2024-07-24"
+  },
+  {
+    "title": "微调llama3大模型(2) - 使用ollama搭建chatbot",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/07/08/451464.html",
+    "date": "2024-07-08"
+  },
+  {
+    "title": "微调llama3大模型(1) - 使用Llama Factory微调llama3大模型",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/07/08/451463.html",
+    "date": "2024-07-08"
+  },
+  {
+    "title": "STABLE DIFFUSION(1) - CONTROLNET",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/30/451460.html",
+    "date": "2024-06-30"
+  },
+  {
+    "title": "STABLE DIFFUSION(3) - 面部修复和高清修复",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/30/451459.html",
+    "date": "2024-06-30"
+  },
+  {
+    "title": "STABLE DIFFUSION(2) - 采样方法",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/29/451458.html",
+    "date": "2024-06-29"
+  },
+  {
+    "title": "STABLE DIFFUSION(1) - 提示词",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/29/451457.html",
+    "date": "2024-06-29"
+  },
+  {
+    "title": "部署docker版的人工智能OPEN-WEBUI+OLLAMA+NGINX",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/19/451450.html",
+    "date": "2024-06-19"
+  },
+  {
+    "title": "部署docker版的nginx",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/19/451449.html",
+    "date": "2024-06-19"
+  },
+  {
+    "title": "NGINX的安全性配置",
+    "url": "http://www.blogjava.net/paulwong/archive/2024/06/19/451448.html",
+    "date": "2024-06-19"
+  }
+]

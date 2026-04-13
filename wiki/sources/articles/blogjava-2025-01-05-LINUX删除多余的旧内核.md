@@ -1,0 +1,58 @@
+---
+title: LINUX删除多余的旧内核
+type: source
+category: article
+created: 2025-01-05
+updated: 2026-04-12
+source_url: http://www.blogjava.net/paulwong/archive/2025/01/05/451537.html
+author: paulwong
+tags: ['linux']
+---
+
+# LINUX删除多余的旧内核
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2025/01/05/451537.html  
+**发布时间**: 2025-01-05
+
+## 摘要
+
+# LINUX删除多余的旧内核
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2025/01/05/451537.html
+**发布时间**: 2025-01-05
+
+LINUX删除多余的旧内核
+linux每次升级后都会留下多余的内核, 一键删除的方法(Centos):@import url(http://www.blogjava.net/CuteSoft_Client/CuteEditor/Load.ashx?type=style&file=SyntaxHighlighter.css);@import url(/css/cuteeditor.css);
+
+
+dnf remove $(dnf repoquery --installonly --latest-limit=-2)
+
+
+
+
+
+posted on 2025-01-05 12:01 paulwong 阅读(55) 评论(0)  编辑  收藏 所属分类: LINUX 、LINUX-SHELL...
+
+## 原文内容
+
+# LINUX删除多余的旧内核
+
+**原文链接**: http://www.blogjava.net/paulwong/archive/2025/01/05/451537.html
+**发布时间**: 2025-01-05
+
+LINUX删除多余的旧内核
+linux每次升级后都会留下多余的内核, 一键删除的方法(Centos):@import url(http://www.blogjava.net/CuteSoft_Client/CuteEditor/Load.ashx?type=style&file=SyntaxHighlighter.css);@import url(/css/cuteeditor.css);
+
+
+dnf remove $(dnf repoquery --installonly --latest-limit=-2)
+
+
+
+
+
+posted on 2025-01-05 12:01 paulwong 阅读(55) 评论(0)  编辑  收藏 所属分类: LINUX 、LINUX-SHELL
+
+## 摄入记录
+
+- **摄入时间**: 2026-04-12
+- **来源**: blogjava.net/paulwong
